@@ -1,0 +1,15 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.2.71"
+}
+
+group 'com.maiorovi'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
